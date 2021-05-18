@@ -1,16 +1,17 @@
 .nav {
   position: relative;
-  padding-bottom: 4em;
+  display: flex;
+  align-items: center;
+  padding-bottom: 3em;
 }
 
 .nav .logo {
-  width: 30%;
+  width: 40%;
 }
 
 .nav .menu-burger {
   position: absolute;
   right: 0;
-  top: 0;
   width: 8%;
   cursor: pointer;
   transition: visibility 0s, opacity 0.5s linear;
@@ -100,6 +101,9 @@ img {
     justify-content: space-between;
     align-items: center;
   }
+  .nav .logo {
+    width: 30%;
+  }
   .nav .main-nav {
     position: static;
     display: flex;
@@ -110,6 +114,7 @@ img {
     background-color: transparent;
     width: auto;
     height: auto;
+    min-height: 0;
     padding: 0;
   }
   .nav .main-nav .nav-item + .nav-item {

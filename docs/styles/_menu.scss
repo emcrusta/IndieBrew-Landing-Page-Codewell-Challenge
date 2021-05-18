@@ -1,15 +1,16 @@
 .nav {
 	position: relative;
-	padding-bottom: 4em;
+	display: flex;
+	align-items: center;
+	padding-bottom: 3em;
 
 	.logo {
-		width: 30%;
+		width: 40%;
 	}
 
 	.menu-burger {
 		position: absolute;
 		right: 0;
-		top: 0;
 		width: 8%;
 		cursor: pointer;
 		transition: visibility 0s, opacity 0.5s linear;

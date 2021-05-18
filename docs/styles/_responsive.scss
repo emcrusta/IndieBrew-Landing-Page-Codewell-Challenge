@@ -9,6 +9,10 @@
 		justify-content: space-between;
 		align-items: center;
 
+		.logo {
+			width: 30%;
+		}
+
 		.main-nav {
 			position: static;
 			display: flex;
@@ -19,6 +23,7 @@
 			background-color: transparent;
 			width: auto;
 			height: auto;
+			min-height: 0;
 			padding: 0;
 
 			.nav-item + .nav-item {
