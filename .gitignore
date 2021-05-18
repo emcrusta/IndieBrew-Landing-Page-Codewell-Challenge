@@ -2,8 +2,8 @@
 *.css.map
 *.sass.map
 *.scss.map
-.node_modules/
-.__MACOSX/
-./.vscode
+node_modules
+__MACOSX/
+.vscode
 yarn.lock
 package.json
