@@ -4,11 +4,21 @@
 	}
 
 	.nav {
+		position: static;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
 		.main-nav {
+			position: static;
 			display: flex;
-			background-color: transparent;
 			flex-direction: row;
 			align-items: center;
+			transform: translateY(0);
+			transition: none;
+			background-color: transparent;
+			width: auto;
+			height: auto;
 			padding: 0;
 
 			.nav-item + .nav-item {
