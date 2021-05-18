@@ -173,6 +173,9 @@ img {
   .footer > .row .footer-menu_all .footer-menu {
     width: 100%;
   }
+  .footer > .row .footer-menu_all .footer-menu .col {
+    width: 100%;
+  }
 }
 
 .container {
