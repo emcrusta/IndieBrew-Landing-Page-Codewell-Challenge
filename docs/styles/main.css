@@ -158,14 +158,17 @@ img {
   .row {
     display: flex;
   }
+  .nav .logo {
+    width: 25%;
+  }
   .hero {
     flex-direction: row-reverse;
   }
   .hero .hero-text {
-    width: 50%;
+    width: 40%;
   }
   .hero .hero-image {
-    width: 45%;
+    width: 55%;
     align-self: flex-start;
   }
   .footer > .row .footer-about {
@@ -185,7 +188,7 @@ img {
 
 .container {
   width: 90%;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
