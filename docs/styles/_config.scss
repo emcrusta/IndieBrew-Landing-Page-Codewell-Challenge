@@ -7,6 +7,14 @@ $desktop-width: 1024px;
 	box-sizing: border-box;
 }
 
+a {
+	transition: 0.3s;
+}
+
+a:hover {
+	opacity: 80%;
+}
+
 body {
 	font-family: 'DM Sans', sans-serif;
 	margin: 0;
