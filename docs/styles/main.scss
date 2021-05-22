@@ -1,4 +1,4 @@
-@import 'menu', 'config', 'responsive';
+@import 'menu', 'config', 'responsive', 'signup';
 
 .container {
 	width: 90%;
@@ -6,9 +6,11 @@
 	margin: 0 auto;
 }
 
-.section_1,
-.section_2,
-.section_3,
+.logo {
+	width: 30%;
+}
+
+section,
 .footer {
 	padding: 2.5em 0;
 }
@@ -26,6 +28,11 @@
 	.bold-accent {
 		font-weight: 700;
 	}
+}
+
+.accent-text {
+	color: rgb(102, 78, 252);
+	font-weight: 700;
 }
 
 .section_1 {
@@ -53,17 +60,12 @@
 			margin-bottom: 2em;
 		}
 	}
-
-	.accent-text {
-		color: rgb(102, 78, 252);
-		font-weight: 700;
-	}
 }
 
 .section_2,
 .section_3 {
 	img {
-		padding-bottom: 4em;
+		padding-bottom: 2.5em;
 	}
 }
 

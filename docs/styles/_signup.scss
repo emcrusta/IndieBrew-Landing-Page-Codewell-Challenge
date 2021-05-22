@@ -1,0 +1,152 @@
+.signup-body {
+	background: linear-gradient(
+		90deg,
+		rgb(253, 252, 249),
+		rgb(247, 235, 249) 5%,
+		rgb(247, 235, 249) 95%,
+		rgb(253, 252, 249)
+	);
+}
+
+.signup-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.home-link {
+		text-decoration: none;
+	}
+
+	.home-link_container {
+		display: flex;
+		align-items: center;
+
+		.back-button {
+			background-color: #fff;
+			border-radius: 3px;
+			border: 1px solid rgb(206, 206, 206);
+			align-self: center;
+			display: flex;
+			padding: 0.6em 1em;
+			cursor: pointer;
+
+			.arrow {
+				align-self: center;
+				justify-self: center;
+			}
+		}
+
+		p {
+			display: none;
+			margin: 0 0 0 0.5em;
+			font-weight: 700;
+			color: #000;
+		}
+	}
+}
+
+.signup-section {
+	padding-top: 0;
+
+	.signup-text {
+		padding-bottom: 1.5em;
+
+		h2 {
+			padding-bottom: 1em;
+		}
+
+		.signup-list {
+			display: flex;
+			align-items: flex-start;
+
+			.emoji {
+				font-size: 2rem;
+			}
+
+			.signup-item {
+				margin: 0 0 0 0.5em;
+				padding-bottom: 1em;
+				color: #000;
+			}
+		}
+	}
+}
+
+.signup-form {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 2.5em;
+
+	> h3 {
+		padding-bottom: 1.5em;
+	}
+
+	form {
+		label {
+			font-weight: 700;
+		}
+
+		> * {
+			margin-bottom: 1.5em;
+		}
+
+		.text-input {
+			width: 100%;
+			padding: 1em;
+			border-radius: 3px;
+			border: 1px solid rgb(206, 206, 206);
+		}
+
+		.toc-container {
+			display: flex;
+
+			.toc-text {
+				width: 90%;
+				font-weight: 400;
+				margin-left: 1em;
+			}
+		}
+	}
+
+	.submit-btn {
+		cursor: pointer;
+		border: none;
+		transition: 0.3s;
+		margin-bottom: 0;
+		width: 100%;
+
+		&:hover {
+			opacity: 80%;
+		}
+	}
+}
+
+@include tablet {
+	.signup-body {
+		.signup-header {
+			p {
+				display: block;
+			}
+		}
+	}
+}
+
+@include desktop {
+	.signup-body {
+		.signup-header {
+			.logo {
+				width: 25%;
+			}
+		}
+	}
+
+	.signup-text {
+		padding-bottom: 0;
+		width: 55%;
+	}
+
+	.signup-form {
+		width: 45%;
+		margin-left: 3em;
+	}
+}
