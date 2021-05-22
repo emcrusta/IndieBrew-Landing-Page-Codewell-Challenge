@@ -2,7 +2,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding-bottom: 3em;
 }
 
 .nav .menu-burger {
@@ -195,6 +194,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 4rem;
 }
 
 .signup-header .home-link {
@@ -329,7 +329,6 @@ img {
 
 .container {
   width: 90%;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -364,6 +363,10 @@ section,
 
 .section_1 {
   background: linear-gradient(120deg, #ecccf7 5%, 10%, #fdfcf9 40%);
+}
+
+.hero {
+  padding-top: 2.5em;
 }
 
 .hero .hero-text .title {

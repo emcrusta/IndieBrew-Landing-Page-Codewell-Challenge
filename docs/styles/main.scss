@@ -2,7 +2,6 @@
 
 .container {
 	width: 90%;
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -45,6 +44,7 @@ section,
 }
 
 .hero {
+	padding-top: 2.5em;
 	.hero-text {
 		.title {
 			margin-top: 0.7em;
