@@ -156,8 +156,8 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  .logo {
-    width: 25%;
+  .nav .logo {
+    width: 20%;
   }
   .row {
     display: flex;
@@ -166,10 +166,10 @@ img {
     flex-direction: row-reverse;
   }
   .hero .hero-text {
-    width: 40%;
+    width: 50%;
   }
   .hero .hero-image {
-    width: 55%;
+    width: 45%;
     align-self: flex-start;
   }
   .footer > .row .footer-about {
@@ -310,13 +310,18 @@ img {
 
 @media screen and (min-width: 1024px) {
   .signup-body .signup-header .logo {
-    width: 25%;
+    width: 20%;
+  }
+  .signup-section {
+    padding: 0;
   }
   .signup-text {
-    padding-bottom: 0;
+    padding: 2.5em 0 0 0;
     width: 55%;
+    margin: 0;
   }
   .signup-form {
+    align-self: flex-start;
     width: 45%;
     margin-left: 3em;
   }
